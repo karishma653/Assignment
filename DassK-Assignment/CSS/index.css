@@ -1,0 +1,122 @@
+* { margin:0; padding:0; box-sizing:border-box; }
+
+header { width:100%; height:100px; background-image:url('../IMG/banner1.png'); background-repeat:no-repeat;  }
+
+h1 { text-align:center; color:#fff; padding-top:25px; font-size:45px; font-family: "Garamond", serif; }
+
+h2 { text-align:left; color:black padding-top:25px; font-size:35px; font-family: "Garamond", serif; }
+
+h3 { text-align:center; color:red; padding-top:25px; font-size:45px; font-family: "Garamond", serif; }
+
+p { font-size: 25px; font-family: "Garamond", serif;}
+
+footer { width:100%; height:50px; color:#fff; background-image:url('../IMG/banner1.png'); background-repeat:no-repeat;  bottom: 0px; }
+
+img { border-radius: 8px; width: 50%;  height: 400px; } /* Got this code from https://www.w3schools.com/css/css3_images.asp */ 
+
+body {background-color:#ffe4b4 ; }
+
+.center {                       /* Got this code from https://www.w3schools.com/howto/howto_css_image_center.asp */ 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+	
+.content {
+  margin: 10px;
+}
+
+#navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+ul#navbar li {
+  float: left;
+  border-right:1px solid #bbb;
+}
+
+ul#navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  text-transform:uppercase;
+}
+
+ul#navbar li:last-child {
+  border-right: none;
+}
+
+ul#navbar li a:hover {
+  background-color: #111;
+}
+
+/* "active" class on current link tells the user the page he/or she is on*/
+ul#navbar .active {
+	background-color:#4cad50;
+    }
+	
+#FoodList {
+  list-style-type: disc; 
+  margin-left: 20px;
+  padding-left: 20px;
+  }
+
+#FoodList a:link,a:visited {
+  color: darkorange;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 25px; 
+  font-family: "Garamond", serif;
+}
+
+#FoodList a:hover {
+  color: green;
+  text-decoration: underline;
+}
+
+#FoodList a:active {
+  color: red;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+th, td { border-style: ridge; border-color: #04AA6D ;}
+
+td { text-align: center; font-family: "Garamond", serif; font-size: 20px; }
+
+th { text-transform: uppercase; background-color: #04AA6D; color: white; font-family: "Garamond", serif; font-size: 25px;}
+
+table { width: 50%; margin-left: auto; margin-right: auto; }
+
+caption { font-family: "Garamond", serif; font-size: 30px; }
+
+input[type=submit], input[type=reset] {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+input[type=submit] { background-color:green; }
+
+input[type=reset] { background-color:red; }
+
+fieldset {border:2px dashed #008000; }
+
+form { margin: 0px 50px; font-size:1.25rem; }
+
